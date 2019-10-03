@@ -5,7 +5,7 @@
     * сохраняем в память
       | NAME | randomNumber 5 |
 
-  @1
+  @test
   Сценарий: тест
 
     * переходит на страницу 'https://github.com/'

@@ -16,10 +16,10 @@ import ru.sbtqa.tag.pagefactory.PageFactory;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         monochrome = true,
-        glue = {"ru.github.stepdefs", "ru.sbtqa.tag.stepdefs.ru"},
+        glue = {"github_project.stepdefs", "ru.sbtqa.tag.stepdefs.ru"},
         features = {"src/test/resources/features/"},
         plugin = {"io.qameta.allure.cucumber2jvm.AllureCucumber2Jvm","pretty"},
-        tags = {"@1"})
+        tags = {"@test"})
 
 public class CucumberTest {
     private static final Logger LOG = LoggerFactory.getLogger(CucumberTest.class);

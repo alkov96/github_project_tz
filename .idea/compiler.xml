@@ -9,5 +9,8 @@
         <module name="github_project" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="github_project" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
